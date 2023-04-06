@@ -294,6 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
+    background-position-x: -60em;
   }
   #hero h1 {
     font-size: 32px;
@@ -485,11 +486,15 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.resume .resume-item p {
+  text-align: justify;
+}
 .resume .resume-item ul {
   padding-left: 20px;
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  text-align: justify;
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
